@@ -1,5 +1,5 @@
 Команды для регистрации ваших даннных
-1)git config --global user.name "your_username"
+1)git config --global "username"
 2)git config --global user.email "your_username@gmai.com"
 
 команды  только для олного проекта
@@ -8,3 +8,6 @@
 
 5)git status Статус проекта
 6)git add . Добавление файлов в буфер обмена
+7)git commit -m "message" сохранение всего из буфера обмена
+8)git push origin main отправление файлов в гитхаб
+
