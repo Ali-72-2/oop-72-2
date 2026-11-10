@@ -32,7 +32,7 @@ video1 = Video("Test", "Titel", "descriptions")
 
 class BankAccount:
 
-    def __init__(self, login, first_name, last_name, balance =100, bonus)
+    def __init__(self, login, first_name, last_name, balance =100, bonus):
         self.login = login
         self.first_name = first_name
         self.last_name = last_name
@@ -44,7 +44,7 @@ class BankAccount:
         return 123
     @classmethod
     def get_bank_name(cls):
-     print(f'{cls.bamk_name}')
+     print(f'{cls.get_bank_name()}')
     @property
     def full_name(self):
         return f'{self.first_name} {self.last_name}'
