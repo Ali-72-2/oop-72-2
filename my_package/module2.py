@@ -1,0 +1,1 @@
+var_module_2 = "Module 2"
