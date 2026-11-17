@@ -64,3 +64,14 @@ feat/bonus
 -m "fix: fixed bonus #708"
 -m "hot-fix: fixed bonus #708"
 -m "update: updated bonus #709"
+
+main
+stage\dev
+
+source .venv/bin/activate | для кативации вертуального окружения для линукс и мак
+.venv\Scripts\activate | powershell winda
+source .venv/Scripts/activate | gti bash winda
+
+python -m venv name_venv
+py -m venv name_venv
+python3 -m venv name_venv
