@@ -3,6 +3,5 @@
 venv
 _pycache_
 .gitignore
-*.db
-django/
+
 
