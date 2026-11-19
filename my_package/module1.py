@@ -1,11 +1,12 @@
 import random
 
-def add(a, b):
+
+def add(a,b):
     return a + b
 
-test_var = ("test")
+test_var = "TEXT"
 
-__all__ = ("add", "test_var"
-
-
+__all__ = (
+    "add",
+    "test_var"
 )
